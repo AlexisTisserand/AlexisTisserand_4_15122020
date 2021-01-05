@@ -18,6 +18,7 @@ a:hover {
     cursor: pointer;
 }
 
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -31,7 +32,6 @@ a:hover {
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
-    padding: 0 50px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -76,6 +76,10 @@ a:hover {
     background: repeat;
 }
 
+.bg-lines-h2-bg{
+    background-image: url(img/lines-h2-bg.png);
+}
+
 .bg-t-edge {
     background: top no-repeat;
 }
@@ -93,6 +97,7 @@ a:hover {
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
+    background-color: rgba(0,0,0, 0.2);
 }
 
 .b-parallax {
@@ -216,6 +221,11 @@ a:hover {
     border-color: rgba(0, 0, 0, .1);
 }
 
+.clients{
+    margin-top: -50px;
+    margin-bottom: 20px;
+}
+
 .d-bloc .panel .a-btn,
 .l-bloc .a-btn,
 .l-bloc .navbar a,
@@ -249,7 +259,8 @@ a:hover {
 .l-bloc h5 a:hover,
 .l-bloc h6 a:hover,
 .l-bloc p a:hover {
-    color: rgba(0, 0, 0, 1);
+    color: #373737;
+    background-color: #F3976C;
 }
 
 .l-bloc .navbar-toggle .icon-bar {
@@ -275,6 +286,16 @@ a:hover {
 .row-no-gutters {
     margin-right: 0;
     margin-left: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row.contact-email{
+    padding: 10px;
+}
+
+#message{
+    max-width: 200%;
 }
 
 .row.row-no-gutters > [class^="col-"],
@@ -369,6 +390,7 @@ a:hover {
 }
 
 @media (min-width: 768px) {
+    
     .site-navigation {
         position: absolute;
         top: 50%;
@@ -538,7 +560,9 @@ button {
 
 a[data-lightbox] {
     position: relative;
-    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     text-align: center;
 }
 
@@ -556,6 +580,7 @@ a[data-lightbox]:hover::before {
     z-index: 1;
     position: absolute;
     top: 50%;
+    left: 50%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
 }
@@ -590,6 +615,7 @@ a[data-lightbox]:hover img {
     left: 15px;
     right: 15px;
     bottom: 5px;
+    text-align: center;
 }
 
 .close-lightbox {
@@ -645,6 +671,14 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
+#contact-email{
+    font-weight: bold;
+}
+
+#contact-email:hover{
+    text-decoration: underline;
+}
+
 h1,
 h2,
 h3,
@@ -657,7 +691,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #373737!important;
 }
 
 .container {
@@ -682,12 +716,9 @@ a {
     margin: auto auto auto auto;
 }
 
-p {
-    font-size: 11px;
-}
 
 .tight-width-whitespace {
-    max-width: 600px;
+    
     margin: auto auto auto auto;
 }
 
@@ -696,9 +727,9 @@ p {
     font-family: "Open Sans";
 }
 
+
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -710,6 +741,11 @@ p {
     margin: auto auto auto auto;
 }
 
+.black{
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
 h2 {
     font-size: 22px;
     line-height: 1.4em;
@@ -719,7 +755,7 @@ h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
+    color: #373737!important;
 }
 
 .med-width-whitespace {
@@ -736,6 +772,10 @@ h4 {
     color: #333333!important;
 }
 
+h6{
+    display: none;
+}
+
 .icons {
     margin-bottom: 14px;
     margin-top: 24px;
@@ -750,8 +790,8 @@ h4 {
 }
 
 .portfolio-row {
-    margin-bottom: 44px;
-    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-top: 0px;
 }
 
 .avatar {
@@ -759,7 +799,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(0,0,0, 0.5);
     padding: 40px 40px 40px 40px;
 }
 
@@ -772,9 +812,6 @@ h4 {
     background-color: #FFFFFF;
 }
 
-.bgc-dark-slate-blue {
-    background-color: #364577;
-}
 
 .bgc-atomic-tangerine {
     background-color: #F3976C;
@@ -786,7 +823,6 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -817,6 +853,7 @@ h4 {
 
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");
+    
 }
 
 .bg-presentation {
@@ -862,9 +899,7 @@ h4 {
     .container {
         width: 100%;
     }
-    .b-parallax {
-        background-attachment: scroll;
-    }
+
     .page-container,
     #hero-bloc {
         overflow-x: hidden;
@@ -888,6 +923,10 @@ h4 {
 }
 
 @media (max-width: 767px) {
+
+    #message{
+        max-width: 100%;
+    }
     .page-container {
         overflow-x: hidden;
         position: relative;
@@ -903,6 +942,7 @@ h4 {
         padding-left: 10px!important;
         padding-right: 10px!important;
     }
+    
     .b-parallax {
         background-attachment: scroll;
     }
@@ -929,9 +969,10 @@ h4 {
         padding-left: 15px;
         width: 100%;
     }
-    .nav > li:hover {
-        background: rgba(0, 0, 0, .08);
+    li{
+        padding: 0;
     }
+    
     .dropdown .dropdown a .caret {
         float: none;
         margin: 5px 0 0 10px!important;
@@ -1024,17 +1065,18 @@ h4 {
         width: 180px;
         height: 320px;
     }
-}
-
-@media (max-width: 400px) {
-    .bloc {
-        padding-left: 0;
-        padding-right: 0;
+    #contact-email{
+        margin-left: 10px;
     }
-}
-
-@media (max-width: 767px) {
+    address{
+        margin-left: 10px;
+    }
     .bloc-mob-center-text {
         text-align: center;
     }
 }
+
+blockquote{
+    color: rgba(0,0,0, 0.8);
+}
+
