@@ -103,8 +103,7 @@ address{
 }
 
 .clients{
-    margin-top: -20px;
-    margin-bottom: 20px;
+    margin-top: -60px;
 }
 
 .l-bloc .navbar-1 a:hover{
@@ -141,10 +140,15 @@ address{
 
 .row.contact-email{
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
 }
 
 #message{
-    max-width: 200%;
+    max-width: 120%;
 }
 
 .row.row-no-gutters > [class^="col-"],
@@ -216,6 +220,7 @@ address{
 }
 
 @media (min-width: 768px) {
+
     
     .site-navigation {
         position: absolute;
@@ -434,6 +439,10 @@ a[data-lightbox]:hover img {
     text-decoration: underline;
 }
 
+.mailto{
+    margin-top: 20px;
+}
+
 h2,
 h3,
 h4,
@@ -448,12 +457,12 @@ a {
     color: #373737!important;
 }
 
-.container {
-    max-width: 1000px;
+.text-contact{
+    font-size: 17px;
 }
 
 .hero-bloc-text {
-    font-size: 38px;
+    font-size: 50px;
 }
 
 .hero-bloc-text-sub {
@@ -524,12 +533,9 @@ h1 {
 }
 
 h4 {
-    color: #333333!important;
-}
-
-h6{
     display: none;
 }
+
 
 .icons {
     margin-bottom: 14px;
@@ -570,6 +576,7 @@ h6{
 
 .bgc-atomic-tangerine {
     background-color: #F3976C;
+    margin-top: -50px;
 }
 
 .tc-white {
@@ -630,6 +637,7 @@ h6{
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
+
     .navbar .nav {
         max-width: 80%
     }
@@ -656,6 +664,11 @@ h6{
 }
 
 @media (max-width: 767px) {
+
+    .clients{
+        margin-top: -10px;
+        margin-bottom: 20px;
+    }
 
     #message{
         max-width: 100%;
