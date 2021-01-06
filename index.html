@@ -1,21 +1,52 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" xmlns:og="http://ogp.me/ns#">
 <head>
     <meta charset="utf-8">
-    <meta name="description" content="La Chouette Agence, entreprise de Web Design basée à Lyon. Nous accompagnons les entreprises à renforcer leur stratégie digitale.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <link rel="shortcut icon" type="image/jpg" href="favicon.jpg">
+    <link rel="shortcut icon" type="image/jpg" href="img/favicon.jpg">
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="./style.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
-	
-	<script src="./js/jquery-2.1.0-min.js"></script>
-	<script src="./js/jqBootstrapValidation-min.js" async></script>
-	<script src="./js/bootstrap-min.js" async></script>
-	<script src="./js/unified-min.js" async></script>
-	
+
+	<!--Primary meta tags-->
 	<title>La Chouette Agence - Entreprise de Web Design à Lyon</title>
+	<meta name="title" content="Accueil - La Chouette Agence">
+	<meta name="description" content="La Chouette Agence, entreprise de Web Design basée à Lyon. Nous accompagnons les entreprises à renforcer leur stratégie digitale.">
+
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://alexistisserand.github.io/AlexisTisserand_4_15122020/">
+	<meta property="og:title" content="Accueil - La Chouette Agence">
+	<meta property="og:description" content="La Chouette Agence, entreprise de Web Design basée à Lyon. Nous accompagnons les entreprises à renforcer leur stratégie digitale.">
+	<meta property="og:image" content="https://alexistisserand.github.io/AlexisTisserand_4_15122020/img/logo.png">
+  
+	<!-- Twitter -->
+	<meta property="twitter:card" content="summary_large_image">
+	<meta property="twitter:url" content="https://alexistisserand.github.io/AlexisTisserand_4_15122020/">
+	<meta property="twitter:title" content="Accueil - ohmyfood!">
+	<meta property="twitter:description" content="La Chouette Agence, entreprise de Web Design basée à Lyon. Nous accompagnons les entreprises à renforcer leur stratégie digitale.">
+	<meta property="twitter:image" content="https://alexistisserand.github.io/AlexisTisserand_4_15122020/img/logo.png">
+
+	<!--JSON-LD-->
+	<script type="application/ld+json">
+		{
+		  "@context": "https://schema.org",
+		  "@type": "LocalBusiness",
+		  "address": {
+			"@type": "PostalAddress",
+			"addressLocality": "Lyon",
+			"addressRegion": "Rhônes-Alpes",
+			"postalCode": "69001",
+			"streetAddress": "2 place Sathonay"
+		  },
+		  "description": "La Chouette Agence, entreprise de Web Design basée à Lyon. Nous accompagnons les entreprises à renforcer leur stratégie digitale.",
+		  "name": "La Chouette Agence",
+		  "image": "https://alexistisserand.github.io/AlexisTisserand_4_15122020/img/logo.png",
+		  "openingHours": "Lundi - Vendredi 09:00-18:00",
+		  "url": "https://alexistisserand.github.io/AlexisTisserand_4_15122020/"
+		}
+		</script>
 </head>
 
 <body>
@@ -36,13 +67,13 @@
 			<nav class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 				<ul class="site-navigation nav navbar-nav">
 					<li>
-						<a href="#bloc-2-services">Services</a>
+						<a href="#services">Services</a>
 					</li>
 					<li>
-						<a href="#bloc-4-portfolio">Portfolio</a>
+						<a href="#portfolio">Portfolio</a>
 					</li>
 					<li>
-						<a href="#contact">Contact</a>
+						<a href="contact.html">Contact</a>
 					</li>
 				</ul>
 			</nav>
@@ -64,7 +95,7 @@
 					La Chouette Agence <br> Agence de Web Design à Lyon.
 				</h1>
 				<div class="text-center">
-					<a href="#contact" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="cta-hero">Contact</a>
+					<a href="contact.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="cta-hero">Contact</a>
 				</div>
 			</div>
 		</div>
@@ -73,7 +104,7 @@
 <!-- bloc-1-presentation END -->
 
 <!-- bloc-2-services -->
-<section class="bloc bgc-white l-bloc" id="bloc-2-services">
+<section class="bloc bgc-white l-bloc" id="services">
 	<div class="container bloc-md">
 		<div class="row">
 			<div class="col-sm-12 text-center">
@@ -138,7 +169,7 @@
 					Nous aimons collaborer avec des entrepreneurs créatifs et des entreprises locales. Que vous ayez besoin d’une identité visuelle complète, d’une refonte de votre site ou d'améliorer votre visibilité sur les moteurs de recherche, contactez-nous.
 				</p>
 				<div class="text-center">
-					<a href="#contact" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="cta-hero cta-2">Contact</a>
+					<a href="contact.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="cta-hero cta-2">Contact</a>
 				</div>
 			</div>
 		</div>
@@ -147,7 +178,7 @@
 <!-- bloc-3-what-i-do END -->
 
 <!-- bloc-4-portfolio -->
-<section class="bloc bgc-white bg-lines-h2-bg bg-repeat l-bloc" id="bloc-4-portfolio">
+<section class="bloc bgc-white bg-lines-h2-bg bg-repeat l-bloc" id="portfolio">
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-12 text-center">
@@ -198,76 +229,6 @@
 </section>
 <!-- bloc-4-portfolio END -->
 
-<!-- bloc-5-cta -->
-
-<section class="bloc bg-banniere d-bloc bloc-bg-texture texture-paper" id="contact">
-	<div class="container bloc-lg">
-
-		<section class="bloc bg-dots-bg bg-repeat d-bloc bloc-bg-texture texture-paper" id="bloc-6">
-			<div class="container bloc-lg">
-				<div class="row">
-					<div class="col-sm-12">
-						<h2 class="text-center hero-bloc-text tc-white">
-							Parlons web design !
-						</h2>
-						<p class="text-center tc-white tight-width-whitespace">
-							Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
-							Parlez-nous de votre projet en complétant le formulaire ci-dessous.
-						</p>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section class="bloc bgc-white l-bloc" id="bloc-7">
-			<div class="container bloc-lg">
-				<div class="row contact-email">
-					<section class="col-sm-6">
-						<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
-							<div class="form-group">
-								<label>
-									Nom
-									<input id="name" class="form-control" required/>
-								</label>
-							</div>
-							<div class="form-group">
-								<label>
-									Adresse email
-									<input id="email" class="form-control" type="email" required/>
-								</label>
-							</div>
-							<div class="form-group">
-								<label>
-									Comment nous avez-vous connu ?
-									<input class="form-control" type="email" required id="input_504"/>
-								</label>
-							</div>
-							<div class="form-group">
-								<label>
-									Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-									<textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
-								</label>
-							</div> 
-							<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
-								Envoyer
-							</button>
-						</form>
-					</section>
-					<section class="col-sm-6">
-						<div class="mailto">
-							<a href="mailto:contact@lachouetteagence.com" id="contact-email">contact@lachouetteagence.com</a>
-							<address>
-							2 place Sathonay<br>
-							69001 Lyon</address>
-							<p>Ouvert de 9h à 18h, du lundi au vendredi</p>
-						</div>
-					</section>
-				</div>
-			</div>
-		</section>
-	</div>
-</section>
-<!-- bloc-5-cta END -->
 
 <!-- Footer - bloc-8 -->
 <footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
@@ -308,6 +269,10 @@
 </main>
 <!-- Principal conteneur END -->
     
+<script type="text/javascript" src="./js/jquery-2.1.0-min.js"></script>
+<script type="text/javascript" src="./js/jqBootstrapValidation-min.js"></script>
+<script type="text/javascript" src="./js/bootstrap-min.js"></script>
+<script type="text/javascript" src="./js/unified-min.js"></script>
 
 </body>
 </html>
