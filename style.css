@@ -18,6 +18,10 @@ a:hover {
     cursor: pointer;
 }
 
+address{
+    color: #373737;
+}
+
 
 #page-loading-blocs-notifaction {
     position: fixed;
@@ -222,7 +226,7 @@ a:hover {
 }
 
 .clients{
-    margin-top: -50px;
+    margin-top: -20px;
     margin-bottom: 20px;
 }
 
@@ -1070,6 +1074,7 @@ h6{
     }
     address{
         margin-left: 10px;
+        color: #373737;
     }
     .bloc-mob-center-text {
         text-align: center;
