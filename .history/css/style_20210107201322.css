@@ -56,7 +56,7 @@ address{
 }
 
 .bg-lines-h2-bg{
-    background-image: url("../img/lines-h2-bg.png");
+    background-image: url("/img/lines-h2-bg.png");
 }
 
 .bg-t-edge {
@@ -74,7 +74,7 @@ address{
 }
 
 .texture-paper::before {
-    background: url("../img/texture-paper.png");
+    background: url("/img/texture-paper.png");
     background-size: 280px 280px;
     background-color: rgba(0,0,0, 0.2);
 }
