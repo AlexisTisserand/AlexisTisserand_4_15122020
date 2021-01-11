@@ -3,7 +3,7 @@ Quatrième projet du parcours "Développeur web" proposé par OpenClassrooms. </
 L'objectif est d'optimiser et d'améliorer un site existant sur son accessibilité, sa vitesse ainsi que sur son référencement (SEO).</br>
 
 # Présentation générale du projet
-La mission se divise en trois parties :
+La mission se divise en trois parties :</br>
 • 1 : **Analyser l'état actuel de SEO du site fourni** et fournir un rapport d'analyse avec 10 recommandations</br>
 • 2 : **Améliorer le SEO du site** en appliquant les 10 recommandations à son contenu et à son code source</br>
 • 3 : **Comparer les résultats** via un rapport d'optimisation qui devra inclure les comparaisons pour les 10 recommandations</br>
