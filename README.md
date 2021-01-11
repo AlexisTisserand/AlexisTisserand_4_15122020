@@ -8,7 +8,7 @@ La mission se divise en trois parties :
 • 2 : **Améliorer le SEO du site** en appliquant les 10 recommandations à son contenu et à son code source
 • 3 : **Comparer les résultats** via un rapport d'optimisation qui devra inclure les comparaisons pour les 10 recommandations
 
-##Livrables
+# Livrables
 ► [Document d'analyse et de recommandations](https://drive.google.com/file/d/1XO7091blivRGSYVIVgQpY3KEPfKUnyrb/view?usp=sharing)</br>
 ► [Repository GitHub](https://github.com/AlexisTisserand/AlexisTisserand_4_15122020)</br>
 ► [Lien Github Page](https://alexistisserand.github.io/AlexisTisserand_4_15122020/)</br>
