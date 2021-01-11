@@ -12,5 +12,5 @@ La mission se divise en trois parties :
 ► [Document d'analyse et de recommandations](https://drive.google.com/file/d/1XO7091blivRGSYVIVgQpY3KEPfKUnyrb/view?usp=sharing)</br>
 ► [Repository GitHub](https://github.com/AlexisTisserand/AlexisTisserand_4_15122020)</br>
 ► [Lien Github Page](https://alexistisserand.github.io/AlexisTisserand_4_15122020/)</br>
-► [Rapport d'optimisation](https://www.canva.com/design/DAESjo_JZy4/yQ9FUigPC2LQEhkVRiflgw/view?utm_content=DAESjo_JZy4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink#6)
+► [Rapport d'optimisation](https://www.canva.com/design/DAESjo_JZy4/yQ9FUigPC2LQEhkVRiflgw/view?utm_content=DAESjo_JZy4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
 
