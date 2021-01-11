@@ -4,9 +4,9 @@ L'objectif est d'optimiser et d'améliorer un site existant sur son accessibilit
 
 # Présentation générale du projet
 La mission se divise en trois parties :
-• 1 : **Analyser l'état actuel de SEO du site fourni** et fournir un rapport d'analyse avec 10 recommandations
-• 2 : **Améliorer le SEO du site** en appliquant les 10 recommandations à son contenu et à son code source
-• 3 : **Comparer les résultats** via un rapport d'optimisation qui devra inclure les comparaisons pour les 10 recommandations
+• 1 : **Analyser l'état actuel de SEO du site fourni** et fournir un rapport d'analyse avec 10 recommandations</br>
+• 2 : **Améliorer le SEO du site** en appliquant les 10 recommandations à son contenu et à son code source</br>
+• 3 : **Comparer les résultats** via un rapport d'optimisation qui devra inclure les comparaisons pour les 10 recommandations</br>
 
 # Livrables
 ► [Document d'analyse et de recommandations](https://drive.google.com/file/d/1XO7091blivRGSYVIVgQpY3KEPfKUnyrb/view?usp=sharing)</br>
