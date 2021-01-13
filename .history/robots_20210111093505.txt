@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://alexistisserand.github.io/AlexisTisserand_4_15122020/sitemap.xml
